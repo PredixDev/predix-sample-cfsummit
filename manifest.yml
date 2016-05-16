@@ -6,10 +6,10 @@ applications:
   #command:  DEBUG=express:* node app.js
   command:  node app.js
 #services:
- # - <your-name>-secure-uaa-instance
+ # - e>-secure-uaa-instance
 env:
     node_env: cloud
-    uaa_service_label : predix-uaa
+#    uaa_service_label : predix-uaa
     #clientId: {Enter client ID, e.g. app-client-id, and place it here}
     #base64ClientCredential: {Get clientID:clientSecret then base64 encode and place it here}
     # Following properties configured only for Timeseries WindData service Integration
